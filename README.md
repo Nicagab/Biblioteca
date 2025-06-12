@@ -14,7 +14,7 @@ O site possui 3 páginas principais.
 
 ## Home page (/): 
 
-Aonde se encontra a lista de livros cadastrados. É possível filtrar os livros por título, gênero ou ano, o filtro padrão é por título.
+Aonde se encontra a lista de livros cadastrados. É possível filtrar os livros por título, autor ou ano, o filtro padrão é por título.
 
 ## Cadastro (/cadastro): 
 
@@ -36,4 +36,4 @@ Uma possível feature seria adicionar um banco de dados ao site, permitindo que 
 
 # Deploy no vercel
 
-Você pode visualizar o resultado final em: 
+Você pode visualizar o resultado em: [biblioteca.app](biblioteca-ten-rho.vercel.app)

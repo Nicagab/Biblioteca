@@ -34,7 +34,7 @@ export default function Home() {
     const livros = getLivros();
     const livrosOrdenados = [...livros].sort((a: any, b: any) => {
       if (filtro === 'titulo') return a.titulo.localeCompare(b.titulo);
-      if (filtro === 'genero') return a.genero.localeCompare(b.genero);
+      if (filtro === 'autor') return a.autor.localeCompare(b.autor);
       return a.ano - b.ano;
     });
     setLivros(livrosOrdenados);
@@ -47,7 +47,7 @@ export default function Home() {
           <label htmlFor="filtro">Filtrar por:</label>
           <select onChange={handleChange}>
               <option value="titulo">Título</option>
-              <option value="genero">Gênero</option>
+              <option value="autor">Autor</option>
               <option value="ano">Ano</option>
           </select>
         </div>
