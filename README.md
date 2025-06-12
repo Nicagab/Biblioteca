@@ -36,4 +36,4 @@ Uma possível feature seria adicionar um banco de dados ao site, permitindo que 
 
 # Deploy no vercel
 
-Você pode visualizar o resultado em: [biblioteca.app](biblioteca-ten-rho.vercel.app)
+Você pode visualizar o resultado em: biblioteca-ten-rho.vercel.app
