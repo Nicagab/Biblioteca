@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Biblioteca de Livros
 
-## Getting Started
+Fiz este projeto para um teste técnico de um processo seletivo, o objetivo era desenvolver uma aplicação básica em next.js para visualizar e cadastrar livros.
 
-First, run the development server:
+# Navegação
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Fiz uma barra de navegação para tornar o site mais atrativo visualmente e ser mais fácil visualizar as rotas disponíveis. Clicando no título Biblioteca (que serve como logo do site) voltamos a Home page (/).
+Ao clicar em cadastrar+, visualizasse a página de cadastro de livros (/cadastro)
+Ao clicar em livros voltamos também a Home page (/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Páginas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O site possui 3 páginas principais.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Home page (/): 
 
-## Learn More
+Aonde se encontra a lista de livros cadastrados. É possível filtrar os livros por título, gênero ou ano, o filtro padrão é por título.
 
-To learn more about Next.js, take a look at the following resources:
+## Cadastro (/cadastro): 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Aonde é possível cadastrar novos livros.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Detalhes (/livro/:id): 
 
-## Deploy on Vercel
+Aqui vemos detalhes do livro anteriormente selecionado.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Armazenamento
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Para armazenar os livros utilizei do localStorage, assim os livros armazenados em determinado navegador ficam salvos para este. 
+
+Uma possível feature seria adicionar um banco de dados ao site, permitindo que todos os usuários tenham acesso a qualquer livro cadastrado por qualquer usuário.
+
+# Estilização e responsividade
+
+É possível utilizar o site em qualquer dispositivo (Desktop, notebook, tablet ou mobile), entretanto o foco na estilização foi mínimo.
+
+# Deploy no vercel
+
+Você pode visualizar o resultado final em: 
